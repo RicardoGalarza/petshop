@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2? family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+}
+/** body **/
+.primerNav {
+  background-color: #222222;
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.primerNav .hijoLeft {
+  color: white;
+  padding-left: 80px;
+}
+
+.primerNav .hijoRight {
+  color: white;
+}
+
+.primerNav .hijoRight select {
+  color: white;
+  background-color: black;
+  border: none;
+}
+
+
+header .headernaranja  {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+
+  height: 62px;
+  background-color: #f0a83e;
+  color: white;
+  align-items: center;
+}
+
+
+
+header nav div .hijoRight a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+}
+
+.menuhambur{
+  background-color: transparent;
+  border: 0;
+  color: white;
+  font-size: 1.5rem;
+  display: none;
+}
+
+main section div img {
+  position: relative;
+  justify-content: space-evenly;
+}
+
+.menu {
+  background-image: url(img/munu12.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 409px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.menu .hijoRight {
+  margin-right: 70px;
+  text-align: center;
+}
+
+.menu .hijoRight h2 {
+  color: #3c2313;
+  font-size: x-large;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.menu .hijoRight p {
+  font-size: larger;
+  margin: 15px;
+}
+
+.menu .hijoRight button {
+  background-color: #f0a83e;
+  color: white;
+  border-radius: 5px;
+  width: 141px;
+  height: 49px;
+  top: 334px;
+  cursor: pointer;
+}
+
+.venta {
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 47px;
+  margin-top: 25px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 0 auto;
+  row-gap: 1rem;
+}
+
+.producto {
+  background-color: #fbfaf6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.naranja {
+  color: #f0a83e;
+}
+
+.black {
+  color: black;
+  font-weight: 1000;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Roboto";
+  color: #3c2313;
+  font-weight: 700;
+  font-size: 30px;
+  margin: 1rem 0;
+}
+.contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.borde {
+  margin-top: 15px;
+  text-align: center;
+  border-radius: 25px;
+  width: 100%;
+  height: 50px;
+  background: #3c2313;
+  color: white;
+  cursor: pointer;
+}
+/** Botones **/
+.contenedor {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.botonE,
+.botonR {
+  color: white;
+  width: 150px;
+  height: 50px;
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.botonE {
+  background-color: #f0a83e;
+}
+
+.botonR {
+  background-color: #8a8787;
+}
+.botonE:hover,
+.botonR:hover {
+  border-radius: 50px;
+  transform: translateY(-5px);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 5px 10px rgba(45, 206, 255, 0.5);
+}
+
+/**Footer**/
+
+.correos {
+  padding: 15px;
+  background-color: #f0a83e;
+  margin-top: 1rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 21px;
+  flex-wrap: wrap;
+}
+
+.suscribete {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.correos form {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.inputexto {
+  text-align: center;
+  border-radius: 25px;
+  width: 70%;
+  height: 50px;
+  
+}
+
+.boton {
+  border-radius: 50px;
+  width: 30%;
+  height: 50px;
+  background: #3c2313;
+  color: white;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  font-display: flex;
+  width: 150px;
+  height: 50px;
+  align-items: center;
+  border: solid 1px transparent;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.boton:hover {
+  border-radius: 50px;
+  transform: translateY(-5px);
+  background-color: #3c2313;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 5px 10px rgba(45, 206, 255, 0.5);
+}
+
+.fondoCafe {
+  margin: 0;
+  padding: 25px;
+  color: white;
+  background-color: #3c2313;
+}
+
+.derechosReservados {
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  color: #ffffff;
+  background-color: black;
+  padding: 8px;
+}
+
+.mediosContacto {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.hijoFooterLeft .fondoCafe img {
+  display: inline-block;
+  max-width: 58px;
+}
+.hijoFooterLeft .fondoCafe div {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.hijoFooterLeft .fondoCafe div h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.hijoFooterLeft .fondoCafe div p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  color: #8a8787;
+}
+
+.d-flex {
+  display: flex;
+}
+
+@media (max-width: 650px) {
+  .primerNav{
+    display: none;
+  }
+  section .hijoRigh {
+    display: none;
+  }
+  .menuhambur{
+    display: block;
+  }
+  header nav{
+    display: none;
+  }
+  .menu .hijoRight{
+    margin: 0 auto;
+  }
+  .mediosContacto{
+    flex-direction: column-reverse;
+  }
+}
